@@ -1,0 +1,36 @@
+.stopwatch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 50px;
+  padding: 30px;
+}
+.display {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: monospace;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px black;
+  margin-bottom: 25px;
+}
+.controls button {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: monospace;
+  margin: 10px;
+  min-width: 125px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+.start-button {
+  background-color: rgb(0, 0, 0);
+}
+.stop-button {
+  background-color: rgb(0, 0, 0);
+}
+.reset-button {
+  background-color: rgb(0, 0, 0);
+}
