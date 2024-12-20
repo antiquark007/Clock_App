@@ -1,15 +1,19 @@
-.clock-container{
+.clock-container {
     backdrop-filter: blur(20px);
     width: 100vw;
     padding: 10px 0;
-
-
 }
-.clock{
+.clock {
     color: white;
     font-size: 8rem;
     font-weight: bold;
     font-family: monospace;
     text-align: center;
     text-shadow: 3px 3px 3px black;
+}
+
+@media (max-width: 768px) {
+    .clock {
+        font-size: 4rem;
+    }
 }
